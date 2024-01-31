@@ -4,7 +4,7 @@ import GroceryItem from '../GroceryItem/GroceryItem';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header>
         <h1>Grocery Smart Mart</h1>
       </header>

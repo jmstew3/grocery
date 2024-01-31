@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from './GroceryItem.module.css';
+
 
 function GroceryItem(props) {
     return (
-        <button onClick={() => alert(`You've added ${props.name} to your cart!`)}>{props.name}</button>
+        <button className={styles.flexItem} onClick={() => alert(`You've added ${props.name} to your cart!`)}>{props.name}</button>
     );
 }
 
