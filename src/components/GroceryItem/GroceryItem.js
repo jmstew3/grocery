@@ -1,8 +1,9 @@
 import React from 'react';
 
-function GroceryItem() {
+
+function GroceryItem(props) {
     return (
-        <button>Buy Eggs</button>
+        <button onClick={() => alert(`You've added ${props.name} to your cart!`)}>{props.name}</button>
     );
 }
 

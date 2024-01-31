@@ -1,7 +1,6 @@
 import './App.css';
 
 import GroceryItem from '../GroceryItem/GroceryItem';
-import GroceryItems from '../GroceryItems/GroceryItems';
 
 function App() {
   return (
@@ -9,8 +8,12 @@ function App() {
       <header>
         <h1>Grocery Smart Mart</h1>
       </header>
-      <GroceryItem />
-      <GroceryItems />
+      <div className="flexContainer">
+        <GroceryItem name="Eggs"/>
+        <GroceryItem name="Bananas"/>
+        <GroceryItem name="Strawberries"/>
+        <GroceryItem name="Bread"/>
+      </div>
     </div>
   );
 }
