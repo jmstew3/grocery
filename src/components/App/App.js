@@ -9,10 +9,8 @@ function App() {
       <header>
         <h1>Grocery Smart Mart</h1>
       </header>
-      <body>
-        <GroceryItem />
-        <GroceryItems />
-      </body>
+      <GroceryItem />
+      <GroceryItems />
     </div>
   );
 }
